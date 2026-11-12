@@ -1,0 +1,50 @@
+================================================================================
+INT315 PROJECT EXECUTION RUN SUMMARY: MOVIELENS ANALYSIS & RECOMMENDATION
+================================================================================
+Syllabus Alignment:
+  - Unit I  : Introduction to Apache Spark (Standalone / Local Cluster Mode)
+  - Unit III: Spark RDDs (Creation, Transformations, Actions, RDD-to-DataFrame)
+  - Unit IV : Spark SQL (Temporary Views, Aggregations, Joins, SQL Wildcards)
+  - Unit VI : Spark MLlib (Collaborative Filtering with ALS, Evaluation with RMSE/MAE)
+
+Execution Environment:
+  - Spark Version             : 3.5.3
+  - Parallelism (Worker Cores): 12
+  - Master Connection         : local[*]
+
+Data Metrics:
+  - Raw Ratings Count         : 100,836
+  - Raw Movies Count          : 9,742
+  - Cleaned Ratings Count     : 100,836
+  - Cleaned Movies Count      : 9,742
+  - Training Set (80%)        : 80,877 rows
+  - Testing Set (20%)         : 19,959 rows
+
+Key Analytical Findings:
+  - Most Frequent Rating      : 4.0 stars (26,818.0 ratings)
+  - Most Rated Movie          : Forrest Gump (1994) (329 ratings, avg 4.16)
+  - Highest Rated Movie (>=50): Shawshank Redemption, The (1994) (avg 4.43)
+  - Top Rated Genre           : Drama (41,928 ratings, avg 3.66)
+  - High Ratings (>=4.5) [RDD]: 21,762
+
+Machine Learning Evaluation (Unit VI):
+  - Model Algorithm           : Alternating Least Squares (ALS) Collaborative Filtering
+  - Hyperparameters           : rank=10, maxIter=10, regParam=0.1, nonnegative=True
+  - Root Mean Squared Error   : 0.8672
+  - Mean Absolute Error (MAE) : 0.6700
+
+Artifacts Generated in outputs/:
+  1. outputs/run_summary.txt
+  2. outputs/rating_distribution.csv
+  3. outputs/top_10_most_rated_movies.csv
+  4. outputs/top_10_highest_rated_movies.csv
+  5. outputs/genre_statistics.csv
+  6. outputs/top_10_active_users.csv
+  7. outputs/yearly_rating_trend.csv
+  8. outputs/star_wars_franchise_sql.csv
+  9. outputs/sample_predictions.csv
+  10. outputs/recommendations_for_sample_users.csv
+  11. outputs/rating_distribution.png
+  12. outputs/genre_ratings.png
+  13. outputs/yearly_rating_trend.png
+================================================================================

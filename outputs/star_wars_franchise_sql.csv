@@ -1,0 +1,10 @@
+movieId,title,genres,total_reviews,average_rating
+260,Star Wars: Episode IV - A New Hope (1977),Action|Adventure|Sci-Fi,251,4.23
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),Action|Adventure|Sci-Fi,211,4.22
+1210,Star Wars: Episode VI - Return of the Jedi (1983),Action|Adventure|Sci-Fi,196,4.14
+2628,Star Wars: Episode I - The Phantom Menace (1999),Action|Adventure|Sci-Fi,140,3.11
+5378,Star Wars: Episode II - Attack of the Clones (2002),Action|Adventure|Sci-Fi|IMAX,92,3.16
+33493,Star Wars: Episode III - Revenge of the Sith (2005),Action|Adventure|Sci-Fi,78,3.43
+122886,Star Wars: Episode VII - The Force Awakens (2015),Action|Adventure|Fantasy|Sci-Fi|IMAX,41,3.85
+179819,Star Wars: The Last Jedi (2017),Action|Adventure|Fantasy|Sci-Fi,12,3.13
+61160,Star Wars: The Clone Wars (2008),Action|Adventure|Animation|Sci-Fi,7,2.36
